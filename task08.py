@@ -1,6 +1,6 @@
-number = 71
 def hours(c):
-    return str(c//60) + " hour/s and "
-def mins(c):
-    return str(c%60) + " minutes"
-print(hours(number) + mins(number) )
+    if c//60 < 2:
+      return str(c//60) + " hour, " + str(c%60) + " minutes"
+    else:
+        return str(c//60) + " hours, " + str(c%60) + " minutes"
+print(hours(126))
