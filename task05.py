@@ -1,5 +1,5 @@
-base = 3
-height = 4
-def Triangle_Area(x,y):
-    return (1/2)*(x*y)
-print(Triangle_Area(base,height))
+def triangle_area(a,b,c):
+    s = (a + b + c) / 2
+    area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+    return area
+print(triangle_area(12,16,20))
