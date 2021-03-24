@@ -1,4 +1,7 @@
 def vowel(word):
     vowels = "aeiuoAEIOU"
-    print([letter for letter in word if letter in vowels])
+    word_set = set(word)
+    vowels_set = set(vowels)
+    lst = (word_set & vowels_set )
+    print(str(lst))
 vowel('Mafanedza');
