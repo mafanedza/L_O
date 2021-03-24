@@ -1,3 +1,4 @@
-def hello(c):
-    return  "Hello " + str(c) + "!"
-print(hello("name"))
+def hello(name):
+    return  "Hello " + str(name) + "!"
+print(hello("Mafanedza"))
+
