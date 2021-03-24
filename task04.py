@@ -1,5 +1,5 @@
-def even_or_odd(c):
-    if c%2 == 0:
+def even_or_odd(num):
+    if num%2 == 0:
         return "even"
     else:
         return "odd"
