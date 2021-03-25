@@ -4,5 +4,6 @@ def common_letters(x,y):
     s1 = set(x)
     s2 = set(y)
     lst = (s1 & s2)
-    print('common letters:' + str(lst))
+    lst_as_str = ','.join(lst)
+    print('common letters:' + lst_as_str)
 common_letters(word_1,word_2)
